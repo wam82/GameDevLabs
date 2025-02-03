@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/_Runtime2D/_Scenes/LAB_03 (2D) (Animation).unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
