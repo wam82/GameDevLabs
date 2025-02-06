@@ -14,7 +14,7 @@ public class FlockAgent : MonoBehaviour
     public float seekSpeed = 3f;
 
     private Vector3 movement;
-	
+    
 	void Update () 
     {
         Collider[] neighbors = GetNeighborContext();
@@ -24,7 +24,11 @@ public class FlockAgent : MonoBehaviour
         Seek();
 
         // TODO : steer and align the boid in the direction of the movement
-		
+        transform.position += movement * seekSpeed * Time.deltaTime;
+        Quaternion rotation = Quaternion.LookRotation(movement);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime);
+
+        movement = Vector3.zero;
     }
 
     public Collider[] GetNeighborContext()
@@ -42,7 +46,25 @@ public class FlockAgent : MonoBehaviour
     {
         // movement is equal to the relative offset from the flock agent to the center of the flock
         // TODO
-		
+        Vector3 cohesiveMovement = Vector3.zero;
+
+        foreach (Collider neighbor in neighbors)
+        {
+            if (neighbor.transform == this.transform)
+            {
+                continue;
+            }
+
+            cohesiveMovement += neighbor.transform.position;
+        }
+
+        if (neighbors.Length > 0)
+        {
+            cohesiveMovement /= neighbors.Length;
+            cohesiveMovement -= transform.position;
+        }
+
+        movement += cohesiveMovement.normalized * cohesionFactor;
     }
 
     // This is the force that dictates the spacing of the swarm.
@@ -50,7 +72,35 @@ public class FlockAgent : MonoBehaviour
     {
         // movement is equal to the average of the sum of all vectors going from neighbor to flock agent within the avoidance radius
         // TODO
-		
+        Vector3 avoidanceMovement = Vector3.zero;
+        float squareRadius = avoidanceRadius * avoidanceRadius;
+
+        foreach (Collider neighbor in neighbors)
+        {
+            if (neighbor.transform == this.transform)
+            {
+                continue;
+            }
+
+            if (Vector3.SqrMagnitude(neighbor.transform.position - transform.position) <= squareRadius)
+            {
+                Vector3 neighborToAgent = transform.position - neighbor.transform.position;
+
+                if (neighborToAgent == Vector3.zero)
+                {
+                    neighborToAgent = Random.insideUnitSphere * 0.1f;
+                }
+
+                avoidanceMovement += neighborToAgent;
+            }
+        }
+
+        if (neighbors.Length > 0)
+        {
+            avoidanceMovement = avoidanceMovement.normalized / neighbors.Length;
+        }
+
+        movement += avoidanceMovement.normalized * avoidanceFactor;
     }
 
     // This "force" has each of the agents try to synch their orientation.
@@ -58,7 +108,24 @@ public class FlockAgent : MonoBehaviour
     {
         // alignedDirection is equal to the average direction of neighbors 
         // TODO
-		
+        Vector3 alignmentDirection = Vector3.zero;
+        foreach (Collider neighbor in neighbors)
+        {
+            if (neighbor.transform == this.transform)
+            {
+                continue;
+            }
+
+            FlockAgent neighborFlockAgent = neighbor.GetComponent<FlockAgent>();
+            alignmentDirection += neighborFlockAgent.movement;
+        }
+        
+        if (neighbors.Length > 0)
+        {
+            alignmentDirection = alignmentDirection.normalized / neighbors.Length;
+        }
+
+        movement += alignmentDirection.normalized;
     }
 
     // This has each agent try to seek out its current target. It's possible to do this
@@ -67,6 +134,9 @@ public class FlockAgent : MonoBehaviour
     void Seek()
     {
         // TODO
-		
+        Vector3 desiredVelocity = target.position - transform.position;
+        movement += desiredVelocity.normalized * seekSpeed;
+        // desiredVelocity = Vector3.ClampMagnitude(desiredVelocity, seekSpeed);
+        // movement += desiredVelocity * Time.deltaTime;
     }
 }
