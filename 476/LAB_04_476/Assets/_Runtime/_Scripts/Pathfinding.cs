@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Linq;
 
 public class Pathfinding : MonoBehaviour
 {
@@ -16,6 +17,11 @@ public class Pathfinding : MonoBehaviour
     public GameObject openPointPrefab;
     public GameObject closedPointPrefab;
     public GameObject pathPointPrefab;
+
+    public float ManhattanHeuristic(Transform start, Transform end)
+    {
+        return Mathf.Abs(start.position.x - end.position.x) + Mathf.Abs(start.position.y - end.position.y);
+    }
 
     private void Update()
     {
@@ -39,7 +45,7 @@ public class Pathfinding : MonoBehaviour
                     goalNode = hit.collider.gameObject.GetComponent<GridGraphNode>();
 
                     // TODO: use an admissible heuristic and pass it to the FindPath function
-                    List<GridGraphNode> path = FindPath(startNode, goalNode);
+                    List<GridGraphNode> path = FindPath(startNode, goalNode, ManhattanHeuristic);
                 }
             }
         }
@@ -111,13 +117,23 @@ public class Pathfinding : MonoBehaviour
                 float movement_cost = 1;
                 
 				// TODO
-
                 // find gNeighbor (g_next)
                 // ...
 
                 // check if you need to update tables, calculate fn, and update open_list using FakePQListInsert() function
 				// and do so if necessary
                 // ...
+                float g_next = gnDict[current] + movement_cost;
+                if (!gnDict.ContainsKey(n) || g_next < gnDict[n])
+                {
+                    gnDict[n] = g_next;
+                    float neighbor = heuristic(n.transform, goal.transform);
+                    fnDict[n] = g_next + neighbor;
+                    pathDict[n] = current;
+                    FakePQListInsert(openList, fnDict, n);
+                    pathDict[n] = current;
+                }
+                
             }
         }
 
@@ -131,7 +147,12 @@ public class Pathfinding : MonoBehaviour
             // create the path by traversing the previous nodes in the pathDict
             // starting at the goal and finishing at the start
             path = new List<GridGraphNode>();
-
+            GridGraphNode current = goal;
+            while (current != null)
+            {
+                path.Add(current);
+                current = pathDict[current];
+            }
             // ...
 
             // reverse the path since we started adding nodes from the goal 
