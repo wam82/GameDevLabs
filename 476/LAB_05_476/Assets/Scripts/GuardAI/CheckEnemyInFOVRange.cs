@@ -31,19 +31,19 @@ public class CheckEnemyInFOVRange : Node
                 _animator.SetBool("Walking", true);
 
                 //TODO (Change NONE to a correct type)
-                state = NodeState.NONE;
+                state = NodeState.SUCCESS;
                 return state;
             }
 
 
             //TODO (Change NONE to a correct type)
-            state = NodeState.NONE;
+            state = NodeState.FAILURE;
             return state;
         }
 
 
         //TODO (Change NONE to a correct type)
-        state = NodeState.NONE;
+        state = NodeState.SUCCESS;
         return state;
     }
 

@@ -21,7 +21,7 @@ public class CheckEnemyInAttackRange : Node
         if (t == null)
         {
             //TODO (Change NONE to a correct type)
-            state=NodeState.NONE;
+            state=NodeState.FAILURE;
             
             return state;
         }
@@ -33,12 +33,12 @@ public class CheckEnemyInAttackRange : Node
             _animator.SetBool("Walking", false);
 
             //TODO (Change NONE to a correct type)
-            state = NodeState.NONE;
+            state = NodeState.SUCCESS;
             return state;
         }
 
         //TODO (Change NONE to a correct type)
-        state = NodeState.NONE;
+        state = NodeState.FAILURE;
         return state;
     }
 

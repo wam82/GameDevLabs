@@ -17,6 +17,14 @@ public class GuardBT : Tree
             new Sequence(new List<Node>
             {
                //TODO: Add check enemy and go to behavior
+               new CheckEnemyInAttackRange(transform),
+               new TaskAttack(transform)
+            }),
+            new Sequence(new List<Node>
+            {
+                //TODO: Add check enemy and go to behavior
+                new CheckEnemyInFOVRange(transform),
+                new TaskGoToTarget(transform)
             }),
         new TaskPatrol(transform, waypoints)
         });

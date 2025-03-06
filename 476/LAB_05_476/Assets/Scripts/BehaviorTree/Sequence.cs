@@ -15,7 +15,17 @@ namespace BehaviorTree
             {
                 switch (node.Evaluate())
                 {
-                   //TODO
+                   case NodeState.FAILURE:
+                       state = NodeState.FAILURE;
+                       return state;
+                   case NodeState.SUCCESS:
+                       anyChildIsRunning = false;
+                       continue;
+                   case NodeState.RUNNING:
+                       anyChildIsRunning = true;
+                       continue;
+                   default:
+                       continue;
                 }
             }
 

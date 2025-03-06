@@ -17,10 +17,12 @@ namespace BehaviorTree
                         continue;
                     case NodeState.SUCCESS:
                         //TODO (Change continue)
-                        continue;
+                        state = NodeState.SUCCESS;
+                        return state;
                     case NodeState.RUNNING:
                         //TODO (Change continue)
-                        continue;
+                        state = NodeState.RUNNING;
+                        return state;
                     default:
                         continue;
                 }

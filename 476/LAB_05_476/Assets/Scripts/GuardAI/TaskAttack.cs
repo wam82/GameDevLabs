@@ -37,6 +37,11 @@ public class TaskAttack : Node
             if (enemyIsDead)
             {
                 //TODO: Clear current target, set up animators
+                ClearData("target");
+                _animator.SetBool("Attacking", false);
+                _animator.SetBool("Walking", true);
+                state = NodeState.SUCCESS;
+                return state;
             }
             else
             {
