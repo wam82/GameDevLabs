@@ -1,0 +1,238 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - HelloWorld.HelloWorldManager
+    - HelloWorld.HelloWorldPlayer
+    - NetworkCommandLine
+    - NetworkPlayerMovement
+    - RpcTest
+    Unity.Netcode.Components.dll:
+    - Unity.Netcode.Components.NetworkTransform
+    Unity.Netcode.Editor.dll:
+    - Unity.Netcode.Editor.Configuration.NetcodeForGameObjectsProjectSettings
+    Unity.Netcode.Runtime.dll:
+    - Unity.Netcode.NetworkManager
+    - Unity.Netcode.NetworkObject
+    - Unity.Netcode.NetworkPrefabsList
+    - Unity.Netcode.Transports.UTP.UnityTransport
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.RiderScriptEditorData
+    - Packages.Rider.Editor.RiderScriptEditorPersistedState
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+  serializedClasses:
+    Unity.Netcode.Runtime:
+    - Unity.Netcode.NetworkConfig
+    - Unity.Netcode.NetworkPrefabs
+    - Unity.Netcode.NetworkVariable`1[UnityEngine.Vector3]
+    - Unity.Netcode.Transports.UTP.UnityTransport/ConnectionAddressData
+    - Unity.Netcode.Transports.UTP.UnityTransport/SimulatorParameters
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16618}
+    - Class: 114
+      Script: {instanceID: 16620}
+    - Class: 114
+      Script: {instanceID: 16622}
+    - Class: 114
+      Script: {instanceID: 16624}
+    - Class: 114
+      Script: {instanceID: 16628}
+    - Class: 114
+      Script: {instanceID: 17042}
+    - Class: 114
+      Script: {instanceID: 20228}
+    - Class: 114
+      Script: {instanceID: 20240}
+    - Class: 114
+      Script: {instanceID: 20440}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: e66c7f78da211f775274e124d9f3e3a3
+    assemblyName: Assembly-CSharp
+    namespaceName: HelloWorld
+    className: HelloWorldManager
+  - hash:
+      serializedVersion: 2
+      Hash: 037ede938cdc9c24b163df7bcc740e57
+    assemblyName: Assembly-CSharp
+    namespaceName: HelloWorld
+    className: HelloWorldPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: a24c0cd0ae6e7102847a18c6ab18c7cf
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NetworkCommandLine
+  - hash:
+      serializedVersion: 2
+      Hash: 4b2551b5a32a0721a40c4cd01eaef70b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NetworkPlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 085844e55896b51989f359d05e985ba8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NetworkTransformTest
+  - hash:
+      serializedVersion: 2
+      Hash: db0311d4a1e5030be97eb7e02b19e22d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RpcTest
+  - hash:
+      serializedVersion: 2
+      Hash: cd4f567ec87358d43397734652238311
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode
+    className: NetworkObject
+  - hash:
+      serializedVersion: 2
+      Hash: 7e93247d600e115dac0cdd880de94e99
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 830c3b545f6e6ee60a4cebab90516f2c
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 400ae79c26070355bf28d12ef9f9b541
+    assemblyName: Unity.Netcode.Components
+    namespaceName: Unity.Netcode.Components
+    className: NetworkRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: fab6bbba359446a75b28d3c1a4cccc4a
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode
+    className: NetworkPrefabsList
+  - hash:
+      serializedVersion: 2
+      Hash: 7e0a847c3ca5700087030dc9d1fa5ac7
+    assemblyName: Unity.Netcode.Components
+    namespaceName: Unity.Netcode.Components
+    className: NetworkRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: a3d05473f733e8f8ca3440567fb320cf
+    assemblyName: Unity.Netcode.Components
+    namespaceName: Unity.Netcode.Components
+    className: AnticipatedNetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 6ddf94363c6ce4b02d9fdd51290cb0f9
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6df6bb2c3e5d5e9bc3e18da49a2cbdbf
+    assemblyName: Unity.Netcode.Components
+    namespaceName: Unity.Netcode.Components
+    className: NetworkAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 5b8b7230ad968399f6726aa1269dcdcb
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 62f9da5ce6e228d040406d4cabef7893
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode
+    className: NetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7827107379afa04394248644b511aa9e
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Transports.UTP
+    className: UnityTransport
+  - hash:
+      serializedVersion: 2
+      Hash: 6221a91114ba308d78ae534219edb618
+    assemblyName: Unity.Netcode.Components
+    namespaceName: Unity.Netcode.Components
+    className: NetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 19824dd35debb3fff0983df49f8359ab
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: cdbf629ac32f9205d78041dd435d1f6e
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Transports.UTP
+    className: SecretsLoaderHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 672716ae97f6ddb615fa5ac3ec9da349
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: bf40c7a9dc15bc219687c9838aa9b41f
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  platform: 2
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: /Users/wamessier/Desktop/476/LabCapsules/GameDevLabs/476/LAB_06_476/Build/Temp.app

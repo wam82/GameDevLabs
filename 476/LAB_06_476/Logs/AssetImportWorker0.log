@@ -1,0 +1,522 @@
+Unity Editor version:    2022.3.55f1 (9f374180d209)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.7.2 (Build 23H311)
+Darwin version:          23.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.55f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/wamessier/Desktop/476/LabCapsules/GameDevLabs/476/LAB_06_476
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61992
+Successfully changed project path to: /Users/wamessier/Desktop/476/LabCapsules/GameDevLabs/476/LAB_06_476
+/Users/wamessier/Desktop/476/LabCapsules/GameDevLabs/476/LAB_06_476
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704608526272]  Target information:
+
+Player connection [140704608526272]  * "[IP] 172.31.30.253 [Port] 0 [Flags] 2 [Guid] 85012350 [EditorId] 85012350 [Version] 1048832 [Id] OSXEditor(0,wambook-pro.wireless.concordia.ca) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704608526272] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704608526272] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 4.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.55f1 (9f374180d209)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.55f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/wamessier/Desktop/476/LabCapsules/GameDevLabs/476/LAB_06_476/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5300M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.55f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.55f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.55f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56367
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.55f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.55f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003212 seconds.
+- Loaded All Assemblies, in  0.559 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 140 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 1135ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (184ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (213ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (269ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.533 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 1107ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (74ms)
+			TypeCache.Refresh (62ms)
+				TypeCache.ScanAssembly (52ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (574ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.55f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (48.6 KB). Loaded Objects now: 1531.
+Memory consumption went from 76.1 MB to 76.1 MB.
+Total: 4.602973 ms (FindLiveObjects: 0.116321 ms CreateObjectMapping: 0.054713 ms MarkObjects: 4.288248 ms  DeleteObjects: 0.142200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 813327.758920 seconds.
+  path: Assets/DefaultNetworkPrefabs.asset
+  artifactKey: Guid(1fa898a54e83d4d2ba759ab743a4add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultNetworkPrefabs.asset using Guid(1fa898a54e83d4d2ba759ab743a4add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7361a40f535ec26776715f263530052f') in 0.025470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.473 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 1089ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (616ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (350ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.9 KB). Loaded Objects now: 1583.
+Memory consumption went from 79.8 MB to 79.7 MB.
+Total: 2.978298 ms (FindLiveObjects: 0.094566 ms CreateObjectMapping: 0.038005 ms MarkObjects: 2.799906 ms  DeleteObjects: 0.044815 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/RiderAssetPostprocessor.cs: e95044eb94149eee30f5192e36c02104 -> 
+  custom:scripting/monoscript/fileName/SerializableVersion.cs: 66cf30c0372dc35aea960f71af56ff8a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RiderInitializer.cs: d44ce07d40dcd4d066b6c1c8d08f3519 -> 
+  custom:scripting/monoscript/fileName/TestsCallback.cs: 420027d2a6ccaf7376f849b0f965edcd -> 
+  custom:scripting/monoscript/fileName/ProjectPart.cs: e09789f5d21ec839c23f3a2c8c340a5a -> 
+  custom:scripting/monoscript/fileName/TestEvent.cs: ff94f6973aa3f0db280f3ed0b7577e48 -> 
+  custom:scripting/monoscript/fileName/SolutionGuidGenerator.cs: 39a21c4f5e351b9b4a2916e800641a4a -> 
+  custom:scripting/monoscript/fileName/PackageManagerTracker.cs: 651bbc6653e509037fd83f80aa48fad7 -> 
+  custom:scripting/monoscript/fileName/IFileIO.cs: d1715877724f6e7813b95bae6fbc24d5 -> 
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: 2bbfb8fc762d145b0b8f0404790fa10d -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorDataPersisted.cs: 93e7c36b8be60b7055550adb6ace534f -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/RiderPathUtil.cs: a77167e74e3a3d01856e2c8265c09e64 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RiderMenu.cs: a430c0ff873704a92fbd3fa96f173c8d -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/UnityVersionUtils.cs: 7c7bbd6a8e94f8b710e2d728079feb2c -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: b2548d11c5a56238ffab3a68b5dcee26 -> 
+  custom:scripting/monoscript/fileName/EditorPluginInterop.cs: 087796556f1ed2025e28209e52d82ccc -> 
+  custom:scripting/monoscript/fileName/RiderDebuggerProvider.cs: 678aab743b360488ecff56faa503ec8d -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorData.cs: fb9aed0c9d95878995d450a00d549f78 -> 
+  custom:scripting/monoscript/fileName/Discovery.cs: 6c003b3862e6a4a3190ec655cba01f40 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunCallback.cs: 0f406f4b09f3b7bd1bfd8f867df2e978 -> 
+  custom:scripting/monoscript/fileName/CallbackInitializer.cs: b6cad195ed4890ee7aed8c4de2807157 -> 
+  custom:scripting/monoscript/fileName/RiderTestRunner.cs: b9ea3ff0565ae2955ea8f15dd6e578d4 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunEventsHandler.cs: 9ebe337aca2d71ac02fccc5c886e0668 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/RiderDebugLinkXmlProcessor.cs: 099ca395a105c6ac1743d631f5230607 -> 
+  custom:scripting/monoscript/fileName/StringUtils.cs: 2be5fb51e6f0660c955416f4d8f6f7ad -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CommandLineParser.cs: 25c8ce1c1ecf3aba3903da1187b88166 -> 
+  custom:scripting/monoscript/fileName/LinkXmlInstaller.cs: 3dee13f8f8e266475c77d4ab15dbe018 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditor.cs: 4ddd2581343451de6f696adaf8c0958f -> 
+  custom:scripting/monoscript/fileName/FileIOProvider.cs: 93247588b72fb2c2d642acc7359e639c -> 
+  custom:scripting/monoscript/fileName/PluginSettings.cs: 4ee82f9c59f87f1dece05e6b9763c365 -> 
+  custom:scripting/monoscript/fileName/LastWriteTracker.cs: c78bd5b4fa28ac60ca7ed50f9c2b99d2 -> 
+  custom:scripting/monoscript/fileName/FileSystemUtil.cs: 3a1d37ca0015bdfbd542c903cf738043 -> 
+  custom:scripting/monoscript/fileName/StringBuilderExtensions.cs: 14a3bca92eed52569c50d58813f48a9b -> 
+  custom:scripting/monoscript/fileName/IGenerator.cs: 7460422a7cf0a449df86606b185ffb0e -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/IAssemblyNameProvider.cs: 005dc9d9c07dc825fea94e0fbc841e20 -> 
+  custom:scripting/precompiled-assembly-types:JetBrains.Rider.PathLocator: fb91ee72d999ec87cafee9848829a9a4 -> 
+  custom:scripting/monoscript/fileName/LibcNativeInterop.cs: 77c1db6bef2e1063dc874463b520ed18 -> 
+  custom:scripting/monoscript/fileName/CallbackData.cs: b15b13425eedd78fb5c4fc4930a9e8b4 -> 
+  custom:scripting/monoscript/fileName/StartUpMethodExecutor.cs: 45cc23141d36926881d69e4d2f8950c7 -> 
+  custom:scripting/monoscript/fileName/RiderStyles.cs: 871a958d95b29e48af876a5d411c626a -> 
+  custom:scripting/monoscript/fileName/GUIDProvider.cs: 3e1b7e2f9f1116bc475fe8e583750bd5 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Rider.Editor: f21c617862b2091d53474303de183f70 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LogFileOpener.cs: 4ac2604e2bd008e0abf6bc3458db4dcf -> 
+  custom:scripting/monoscript/fileName/IGUIDGenerator.cs: bad2c2e3b2dbec33c36bdfd6fc903e19 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 82.578998 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '646a91bcc99e819f7ae5e2aa9a4ddf5f') in 0.002193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 269.506515 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(d556d93d9824bb84eaf6e46838cb4c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(d556d93d9824bb84eaf6e46838cb4c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9df781e9edfd102a15275658e93e2f91') in 0.448902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.384 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 934ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (551ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.1 KB). Loaded Objects now: 1607.
+Memory consumption went from 86.1 MB to 86.1 MB.
+Total: 2.562770 ms (FindLiveObjects: 0.092231 ms CreateObjectMapping: 0.036017 ms MarkObjects: 2.407862 ms  DeleteObjects: 0.025987 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/RiderAssetPostprocessor.cs: e95044eb94149eee30f5192e36c02104 -> 
+  custom:scripting/monoscript/fileName/SerializableVersion.cs: 66cf30c0372dc35aea960f71af56ff8a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RiderInitializer.cs: d44ce07d40dcd4d066b6c1c8d08f3519 -> 
+  custom:scripting/monoscript/fileName/TestsCallback.cs: 420027d2a6ccaf7376f849b0f965edcd -> 
+  custom:scripting/monoscript/fileName/ProjectPart.cs: e09789f5d21ec839c23f3a2c8c340a5a -> 
+  custom:scripting/monoscript/fileName/TestEvent.cs: ff94f6973aa3f0db280f3ed0b7577e48 -> 
+  custom:scripting/monoscript/fileName/SolutionGuidGenerator.cs: 39a21c4f5e351b9b4a2916e800641a4a -> 
+  custom:scripting/monoscript/fileName/PackageManagerTracker.cs: 651bbc6653e509037fd83f80aa48fad7 -> 
+  custom:scripting/monoscript/fileName/IFileIO.cs: d1715877724f6e7813b95bae6fbc24d5 -> 
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: 2bbfb8fc762d145b0b8f0404790fa10d -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorDataPersisted.cs: 93e7c36b8be60b7055550adb6ace534f -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/RiderPathUtil.cs: a77167e74e3a3d01856e2c8265c09e64 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RiderMenu.cs: a430c0ff873704a92fbd3fa96f173c8d -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/UnityVersionUtils.cs: 7c7bbd6a8e94f8b710e2d728079feb2c -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: b2548d11c5a56238ffab3a68b5dcee26 -> 
+  custom:scripting/monoscript/fileName/EditorPluginInterop.cs: 087796556f1ed2025e28209e52d82ccc -> 
+  custom:scripting/monoscript/fileName/RiderDebuggerProvider.cs: 678aab743b360488ecff56faa503ec8d -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Project.cs: e0f36ba34d7b588c02343a8832f6bf7b -> 
+  custom:scripting/monoscript/fileName/UpdateChecker.cs: 029b1daf8f3b497c0666e54f8685c8b9 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorData.cs: fb9aed0c9d95878995d450a00d549f78 -> 
+  custom:scripting/monoscript/fileName/Discovery.cs: 6c003b3862e6a4a3190ec655cba01f40 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunCallback.cs: 0f406f4b09f3b7bd1bfd8f867df2e978 -> 
+  custom:scripting/monoscript/fileName/ClonesManagerWindow.cs: 480fe8f568c4df8018a3dadfa3e69d57 -> 
+  custom:scripting/monoscript/fileName/CallbackInitializer.cs: b6cad195ed4890ee7aed8c4de2807157 -> 
+  custom:scripting/monoscript/fileName/RiderTestRunner.cs: b9ea3ff0565ae2955ea8f15dd6e578d4 -> 
+  custom:scripting/monoscript/fileName/Preferences.cs: fc1c65ff2d399f273bddd63c0e50bbd2 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunEventsHandler.cs: 9ebe337aca2d71ac02fccc5c886e0668 -> 
+  custom:scripting/monoscript/fileName/AskFeedbackDialog.cs: 87af38bcc9ff5fcc64e3b06dc3e06287 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/RiderDebugLinkXmlProcessor.cs: 099ca395a105c6ac1743d631f5230607 -> 
+  custom:scripting/monoscript/fileName/StringUtils.cs: 2be5fb51e6f0660c955416f4d8f6f7ad -> 
+  custom:scripting/monoscript/fileName/ClonesManager.cs: 56d4e9ba876d20feaa256fa586b68f63 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CommandLineParser.cs: 25c8ce1c1ecf3aba3903da1187b88166 -> 
+  custom:scripting/monoscript/fileName/ExternalLinks.cs: f57d4a4349423b09b7191c91a0e33dbb -> 
+  custom:scripting/monoscript/fileName/LinkXmlInstaller.cs: 3dee13f8f8e266475c77d4ab15dbe018 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditor.cs: 4ddd2581343451de6f696adaf8c0958f -> 
+  custom:scripting/monoscript/fileName/FileIOProvider.cs: 93247588b72fb2c2d642acc7359e639c -> 
+  custom:scripting/monoscript/fileName/PluginSettings.cs: 4ee82f9c59f87f1dece05e6b9763c365 -> 
+  custom:scripting/monoscript/fileName/LastWriteTracker.cs: c78bd5b4fa28ac60ca7ed50f9c2b99d2 -> 
+  custom:scripting/monoscript/fileName/FileSystemUtil.cs: 3a1d37ca0015bdfbd542c903cf738043 -> 
+  custom:scripting/monoscript/fileName/ValidateCopiedFoldersIntegrity.cs: 56f406d9e913419ab82dfb77d147492d -> 
+  custom:scripting/monoscript/fileName/StringBuilderExtensions.cs: 14a3bca92eed52569c50d58813f48a9b -> 
+  custom:scripting/monoscript/fileName/FileUtilities.cs: 811394ef5296031bf08d2e265c0b00fd -> 
+  custom:scripting/monoscript/fileName/IGenerator.cs: 7460422a7cf0a449df86606b185ffb0e -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/IAssemblyNameProvider.cs: 005dc9d9c07dc825fea94e0fbc841e20 -> 
+  custom:scripting/precompiled-assembly-types:JetBrains.Rider.PathLocator: fb91ee72d999ec87cafee9848829a9a4 -> 
+  custom:scripting/monoscript/fileName/LibcNativeInterop.cs: 77c1db6bef2e1063dc874463b520ed18 -> 
+  custom:scripting/monoscript/fileName/CallbackData.cs: b15b13425eedd78fb5c4fc4930a9e8b4 -> 
+  custom:scripting/monoscript/fileName/StartUpMethodExecutor.cs: 45cc23141d36926881d69e4d2f8950c7 -> 
+  custom:scripting/monoscript/fileName/RiderStyles.cs: 871a958d95b29e48af876a5d411c626a -> 
+  custom:scripting/monoscript/fileName/ParrelSyncAssetModificationProcessor.cs: 98155902029fa8ed02f705a5843cf897 -> 
+  custom:scripting/monoscript/fileName/GUIDProvider.cs: 3e1b7e2f9f1116bc475fe8e583750bd5 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Rider.Editor: f21c617862b2091d53474303de183f70 -> 
+  custom:scripting/monoscript/fileName/OtherMenuItem.cs: 65154b4add18958b71906d4d02b7528b -> 
+  custom:scripting/monoscript/fileName/EditorQuit.cs: 0d99020733aa7608452e4fa0cdb5cb7e -> 
+  custom:scripting/precompiled-assembly-types:ParrelSync: 5026302d02296ed95c724f4cf71da346 -> 
+  custom:scripting/monoscript/fileName/ParrelSyncProjectSettings.cs: 94f207732aa70d266b84e4949e224ceb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LogFileOpener.cs: 4ac2604e2bd008e0abf6bc3458db4dcf -> 
+  custom:scripting/monoscript/fileName/IGUIDGenerator.cs: bad2c2e3b2dbec33c36bdfd6fc903e19 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 432.142919 seconds.
+  path: Assets/DefaultNetworkPrefabs.asset
+  artifactKey: Guid(1fa898a54e83d4d2ba759ab743a4add8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DefaultNetworkPrefabs.asset using Guid(1fa898a54e83d4d2ba759ab743a4add8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51ea97b03f8df9e32a98dfdd0c11e47c') in 0.148446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Scripts/HelloWorldPlayer.cs
+  artifactKey: Guid(3d845c7fb62e5cc45bcd17f013dba4e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/HelloWorldPlayer.cs using Guid(3d845c7fb62e5cc45bcd17f013dba4e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '89f27908a720692258f012ed837e8f91') in 0.012492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Scripts/RpcTest.cs
+  artifactKey: Guid(7d4e8faf41e929441b00ce07293827c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/RpcTest.cs using Guid(7d4e8faf41e929441b00ce07293827c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8234e375913cf732c7e93f8bf14e3e3') in 0.005196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Scripts/NetworkPlayerMovement.cs
+  artifactKey: Guid(7c1572886a5f5e0428f66f469e8f988d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/NetworkPlayerMovement.cs using Guid(7c1572886a5f5e0428f66f469e8f988d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a306cf05854e18bfaecd4062748ddaa5') in 0.004542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26e694c14800c832678aec75ce9f0ddb') in 0.002449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Scripts/NetworkCommandLine.cs
+  artifactKey: Guid(fb92cadba42cca04e8ecdcc8d5082c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/NetworkCommandLine.cs using Guid(fb92cadba42cca04e8ecdcc8d5082c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c6919e2c0a792407b93136fb551c3fb6') in 0.004054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Scripts/HelloWorldManager.cs
+  artifactKey: Guid(85fbf14b119a1764b889b1a54ebab7e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/HelloWorldManager.cs using Guid(85fbf14b119a1764b889b1a54ebab7e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2cedae15578cbb5e2aaac5d8133bc7e') in 0.003877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Scripts/NetworkTransformTest.cs
+  artifactKey: Guid(9f5451968be530948918adec6b293ce4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/NetworkTransformTest.cs using Guid(9f5451968be530948918adec6b293ce4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bcae4f3d18b08555e75c6bc994e33094') in 0.005169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
